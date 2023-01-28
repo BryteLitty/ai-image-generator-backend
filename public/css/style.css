@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-color: yellow; */
+}
+
+.logo {
+    color: purple;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.nav-flex {
+    margin: 8px auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: rgb(87, 86, 86);
+    font-size: 0.8em;
+}
+
+.form-section {
+    /* background-color: orange; */
+    width: 50%;
+    margin: 10px auto;
+    padding: 20px 12px;
+}
+
+.form-control {
+    margin: 25px 0;
+}
+
+.btn-generate {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.btn-generate:hover {
+    transition: all .2s ease-in-out;
+    background-color: rgb(33, 32, 32);
+    scale: 0.99;
+}
+
+input, select {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px 5px;
+    border-radius: 2px;
+    background-color: white;
+}
+input:focus,
+select:focus {
+    background-color: rgb(250, 225, 207);
+}
+
+.img-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/spinner.css">
+    <title>AI Image Generator</title>
+</head>
+<body>
+    <nav class="nav-flex">
+        <div class="logo">
+            purple.ai
+        </div>
+        <ul class="nav-items">
+            <li class="nav-item"><a href="#">AI Image Generator</a></li>
+            <li class="nav-item"><a href="#">OpenAI Documentations</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-section">
+        <div class="form-section">
+            <span class="msg"></span>
+            <form action="" id="input-form">
+                <div class="form-control">
+                    <label for="prompt"></label>
+                    <input type="text" name="prompt" class="prompt" placeholder="Describe image to generate">
+                </div>
+                <div class="form-control">
+                    <select name="size" id="size" class="size">
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <button class="btn-generate">
+                        Generate Image
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div class="generated-img">
+            <div class="img-container">
+                <h2 class="message">
+                    <img src="" alt="" class="dipslay-img">
+                </h2>
+            </div>
+        </div>
+
+        <!-- spinner -->
+        <div class="spinner"></div>
+    </main>
+
+    <script src="./javascript/index.js"></script>
+
+</body>
+</html>
